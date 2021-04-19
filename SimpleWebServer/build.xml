@@ -1,9 +1,6 @@
 <?xml version="1.0"?> <!-- Using sml version 1.0 -->
 <project name="SimpleWebServer" default="run"> <!-- Project Root Name is SimpleWebServer -->
     <target name="run" depends="compile"> <!-- run program, depends on compile -->
-        <java classname="edu.nmsu.cs.webserver.WebWorker">  <!-- compiles webworker java file -->
-            <classpath path="bin" /> <!-- bin is path to save class files to -->
-        </java> 
         <java classname="edu.nmsu.cs.webserver.WebServer">  <!-- compiles webserverr java file -->
             <classpath path="bin" /> <!-- bin is path to save class files to -->
         </java> 
